@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+/* CSS HEX */
+--preto: #0d1321ff;
+--azul-forte: #1d2d44ff;
+--cinza: #3e5c76ff;
+--azul-fraco: #748cabff;
+--beige: #f0ebd8ff;
+--laranja-claro: #FF862A;
 }
 
 body {
@@ -11,14 +17,13 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: var(--cinza);
 }
 
 
 section {
     padding-bottom: 5rem;
 }
-
 
 .nav-link {
     color: #CB6D43;
@@ -27,7 +32,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/minecraft2.png');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
